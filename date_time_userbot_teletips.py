@@ -36,7 +36,7 @@ async def main_teletips():
                 await Date_Time_Userbot_teletips.update_profile(bio = f"{Emojis_teletips} {Quotes_teletips}")
                 
                 
-            await asyncio.sleep(60)     
+            await asyncio.sleep(20)     
     except FloodWait as e:
         await asyncio.sleep(e.x)         
 
